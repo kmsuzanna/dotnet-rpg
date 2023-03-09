@@ -1,0 +1,48 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:8748",
+      "sslPort": 44356
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5198",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CORECLR_ENABLE_PROFILING":"1",
+"CORECLR_PROFILER":"{36032161-FFC0-4B61-B559-F6C5D41BAE5A}",
+"CORECLR_PROFILER_PATH":"/Users/soshanna/drive/sandbox/dotnet-rpg/bin/Debug/net7.0/newrelic/libNewRelicProfiler.so",
+"CORECLR_NEWRELIC_HOME":"/Users/soshanna/drive/sandbox/dotnet-rpg/bin/Debug/net7.0/newrelic",
+"NEW_RELIC_LICENSE_KEY":"3b57295e645b4cffbf0f62d91aa455aca2e4NRAL",
+"NEW_RELIC_APP_NAME":"ttest"
+
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5198",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

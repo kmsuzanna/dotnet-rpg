@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin/Release/net7.0/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/63ab8840-e52e-4545-aa9a-15a891981e56/AppServices/subscriptions/63ab8840-e52e-4545-aa9a-15a891981e56/resourceGroups/RPG-rg/providers/Microsoft.Web/sites/RPG-as"
+}
